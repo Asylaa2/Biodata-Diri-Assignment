@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Profile</title>
+    <style>
+        body {
+            height: 100vh;
+            /* Mengatur tinggi body agar memenuhi viewport */
+            margin: 0;
+            /* Menghilangkan margin default */
+            background: linear-gradient(to right, #DBAFA0, #BB8493);
+            /* Gradient dari kiri ke kanan */
+            display: flex;
+            /* Menggunakan flexbox untuk memudahkan penataan konten */
+            justify-content: center;
+            /* Mengatur konten agar berada di tengah secara horizontal */
+            align-items: center;
+            /* Mengatur konten agar berada di tengah secara vertikal */
+            font-family: 'Montserrat', sans-serif;
+            /* Mengatur font */
+            text-align: center;
+            /* Mengatur teks agar berada di tengah */
+        }
+
+        .container {
+            /* background-color: #DBAFA0; */
+            padding: 20px;
+            border-radius: 10px;
+            /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
+            text-align: center;
+            /* box-shadow: 5px 5px 5px 10px #BB8493; Offset x 5px, offset y 5px, blur 10px, spread 5px, warna hitam */
+
+
+        }
+
+        .profile-image {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 2px solid #49243E;
+        }
+
+        .info {
+            background-color: #49243e36;
+            color: #49243E;
+            font-weight: bold;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 2px solid #49243E;
+            /*border hitam text box*/
+            padding-top: 5%;
+            /*custom text box atas*/
+        }
+
+        .info:hover {
+            background-color: #49243e52;
+        }
+
+        h1 {
+            color: #49243E;
+            /* text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>About Me!</h1>
+        <img src="FinalProf.jpg" alt="Profile Picture" class="profile-image">
+
+        <div class="info">Nama Lengkap: Khalida Lintang Anindita</div>
+        <div class="info">Kelas: XII</div>
+        <div class="info">Asal Sekolah: SMK NEGERI 8 SEMARANG</div>
+        <div class="info">Tempat Tanggal Lahir: Semarang, 24 Juni 2007</div>
+    </div>
+</body>
+
+</html>
